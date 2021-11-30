@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  console.log('This is message :D');
   return (
     <View style={styles.container}>
       <Text>This is test</Text>
